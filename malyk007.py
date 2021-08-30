@@ -2,7 +2,7 @@
 #coding=utf-8
 #The Credit For This Code Goes To MalykSuleman
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
-#Reserved2020
+#Reserved2021
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -92,7 +92,7 @@ print  """
    \033[1;92m███████▒▒Welcome To HUNT3R'5 W0RLD▒▒████████
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mMalykSuleman\033[1;95m♡╭──────────•◈•──────────╮♡
 \033[1;94mAuthor\033[1;91m: \033[1;91mMalykSuleman
-\033[1;94mMalykSuleman\033[1;91m: \033[1;91▒▓██████████████]99.9
+\033[1;94mMalykSuleman\033[1;91m: \033[1;91▒▓██████████████]
 \033[1;94mFacebook\033[1;91m: \033[1;91mMalykSuleman
 \033[1;94mWhatsapp\033[1;91m: \033[1;91m+923084820242
 \033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mMalykSuleman\033[1;95m♡╰──────────•◈•──────────╯♡"""
@@ -172,7 +172,7 @@ def login():
 				print"\n\x1b[1;91mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;92mYour Account is on Checkpoint")
+			print("\n\x1b[1;92mLogin Sucessfull...")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
@@ -200,7 +200,7 @@ def menu():
 		id = a['id']
 	except KeyError:
 		os.system('clear')
-		print"\033[1;91mYour Account is on Checkpoint"
+		print"\033[1;91mLogin Sucessfull"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
